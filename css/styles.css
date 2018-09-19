@@ -20,24 +20,29 @@ body, html {
   bottom: 0;
 }
 
+#panel-card {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
 .panel {
-  background-color: rgba(255, 242, 219, 0.5);
+  background-color: rgba(245, 238, 219, 1.0);
 }
 
 .bottle {
-	height: 284px;
-	width: 190px;
+  height: 284px;
+  width: 190px;
 }
 
 .beer-label {
   height: 250px;
-	width: 250px;
+  width: 250px;
 }
 
 #our-story {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/our-story.jpg");
-	background-attachment: fixed;
-	background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/our-story.jpg");
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
