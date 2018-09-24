@@ -46,3 +46,8 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#gaeltacht {
+  height: 200px;
+  width: 200px;
+}
